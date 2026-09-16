@@ -32,9 +32,16 @@
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.step,.asset{transition:none}}
   </style>
 <style>@media(max-width:850px){.topbar .shell{height:auto;min-height:72px;flex-wrap:wrap;padding:12px 0;gap:12px}.nav{display:flex;width:100%;overflow-x:auto;white-space:nowrap;padding-bottom:4px;gap:18px}}section[id]{scroll-margin-top:110px}</style>
+<style>
+  .topbar .shell{gap:20px}.brand{min-width:0}.brand-title{font-size:14px}.nav{align-items:center;gap:18px;flex-shrink:0}
+  .nav .forum-button{display:inline-flex;align-items:center;justify-content:center;padding:10px 15px;border-radius:8px;background:var(--mint);color:var(--navy);font-weight:750;white-space:nowrap}.nav .forum-button:hover{background:var(--blue);color:var(--navy)}
+  .forum-section{padding:48px 0;background:var(--paper)}.forum-box{display:flex;align-items:center;justify-content:space-between;gap:32px;padding:36px;border:1px solid var(--line);border-top:3px solid var(--cyan);border-radius:16px;background:#fff}.forum-box .eyebrow{color:var(--muted)}.forum-box h2{margin:10px 0;font-size:clamp(28px,4vw,40px);line-height:1.15;letter-spacing:-.025em}.forum-box p{margin:0;max-width:680px;color:var(--muted)}.forum-link{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;padding:13px 20px;border-radius:8px;background:var(--navy);color:#fff;text-decoration:none;font-weight:750}.forum-link:hover{background:var(--navy2)}
+  @media(min-width:851px) and (max-width:1120px){.brand-title{display:none}}
+  @media(max-width:850px){.nav{flex-wrap:wrap;overflow:visible}.nav .forum-button{margin-left:auto}.forum-box{align-items:flex-start;flex-direction:column;padding:26px}}
+</style>
 </head>
 <body>
-  <header class="topbar"><div class="shell"><div class="brand"><img src="assets/crossfuze-logo-white.png" alt="Crossfuze"><span class="brand-title">Autonomous Enterprise campaign map</span></div><nav class="nav" aria-label="Page sections"><a href="#story">Story</a><a href="#pathways">Pathways</a><a href="#method">Method</a><a href="#assets">Guides & tools</a></nav></div></header>
+  <header class="topbar"><div class="shell"><div class="brand"><img src="assets/crossfuze-logo-white.png" alt="Crossfuze"><span class="brand-title">Autonomous Enterprise campaign map</span></div><nav class="nav" aria-label="Page sections"><a href="#story">Story</a><a href="#pathways">Pathways</a><a href="#method">Method</a><a href="#assets">Guides & tools</a><a class="forum-button" href="https://crossfuze-lighthouse.github.io/Worldforum26/" target="_blank" rel="noopener noreferrer">World Forum 2026 ↗</a></nav></div></header>
   <main>
     <section class="hero"><div class="shell"><div class="eyebrow">Crossfuze · master campaign architecture</div><h1>From AI capability<br>to <span>trusted autonomy.</span></h1><p>The connected marketing story behind <strong>Preparing for the Autonomous Enterprise</strong>—and the guides, models and tools that turn the narrative into a customer decision.</p><div class="hero-meta"><span class="pill">Enterprise narrative</span><span class="pill">Two pathways</span><span class="pill">One accountable method</span><span class="pill">Measurable next steps</span></div></div></section>
     <section class="statement"><div class="shell"><h2>The central thesis</h2><p><b>ServiceNow is rapidly expanding what AI can do.</b> Crossfuze helps organisations determine what they are ready to let it do—and carries the chosen outcome into trusted operation.</p></div></section>
@@ -70,6 +77,7 @@
       </div></div></section>
 
     <section class="one-line"><div class="shell"><div class="eyebrow" style="color:#08745b">The story in one line</div><blockquote>“The Autonomous Enterprise is the destination. The AI Readiness Gap is the barrier. Autonomy is earned. Permission to Automate defines the boundary. The Road to Zero turns readiness into evidenced outcomes.”</blockquote><button id="copyStory" type="button">Copy the campaign story</button></div></section>
+    <section class="forum-section" aria-labelledby="forum-title"><div class="shell"><div class="forum-box"><div><div class="eyebrow">LinkedIn campaign · London &amp; Toronto</div><h2 id="forum-title">World Forum 2026</h2><p>Explore the LinkedIn campaign for World Forum 2026 in London and Toronto.</p></div><a class="forum-link" href="https://crossfuze-lighthouse.github.io/Worldforum26/" target="_blank" rel="noopener noreferrer">Open campaign ↗</a></div></div></section>
   </main>
   <footer class="footer"><div class="shell"><b>Crossfuze · Autonomous Enterprise campaign map</b><span>Working campaign architecture · September 2026</span></div></footer>
   <script>
